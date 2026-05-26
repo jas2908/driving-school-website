@@ -1,0 +1,143 @@
+.courses {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.courses .heading {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:768px) {
+    .courses .heading h1 {
+        font-size: 30px;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .courses .heading h1 {
+        font-size: 36px;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+@media screen and (min-width:993px) {
+    .courses .heading h1 {
+        font-size: 40px;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.courses .box {
+    /* margin-top: 60px; */
+    background-color: #fff;
+    max-width: 390px;
+    text-align: center;
+}
+.box:hover .img-in button,
+.box:hover .img-in .over {
+    display: block;
+}
+.box .light {
+    background-color: #ececec;
+    padding: 9px 20px;
+}
+.box .money {
+    color: #fff;
+    background-color: var(--primary);
+    font-size: 20px;
+    padding: 8px 25px;
+}
+.box .title {
+    margin: 35px 30px 30px;
+    color: var(--dark);
+    font-size: 22px;
+    font-weight: 600;
+}
+.box .para {
+    color: #757575;
+    max-width: 350px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.box .box-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px 30px;
+}
+.box .box-in i {
+    color: var(--primary);
+}
+.box .box-in span {
+    color: #757575;
+    margin-left: 10px;
+}
+.box .box-in .week span:first-of-type {
+    margin: 0 10px;
+}
+.box .img-in {
+    max-width: 390px;
+    position: relative;
+}
+.box .img-in .over {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.box .img-in button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+    padding: 10px 17px;
+    font-size: 17px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+.box .img-in button:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+.box .img-in img {
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .grid3 {
+        display: none;
+    }
+    .flexsm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 992px) {
+    .grid3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:993px) and (max-width: 1300px) {
+    .grid3 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .box {
+        margin-top: 40px;
+    }
+}

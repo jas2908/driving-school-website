@@ -1,0 +1,162 @@
+.contact {
+    margin-bottom: 150px;
+}
+.contact .left {
+    max-width: 700px;
+}
+.contact iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.contact .right {
+    width: 100%;
+}
+.contact .right .down {
+    color: #757575;
+    line-height: 1.6;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.contact .right .down a {
+    color: var(--primary);
+    text-decoration: none;
+}
+.contact-in {
+    background-color: transparent;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-in .one,
+.contact-in .two {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-in .one input {
+    width: 100%;
+}
+.contact-in .two input {
+    width: 100%;
+}
+.contact-in .one input,
+.contact-in .two input {
+    padding: 10px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #757575;
+    margin: 10px 0;
+    background-color: #F3F6F8;
+    font-size: 16px;
+}
+.contact-in textarea {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #F3F6F8;
+}
+.contact-in input[type= button] {
+    max-width: 250px;
+    border: none;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 17px;
+    padding: 22px;
+    margin: 10px 0;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.contact-in input[type= button]:hover {
+    background-color: #f3be00de;
+}
+@media screen and (max-width:768px) {
+    .contact .heading h1 {
+        font-size: 28px;
+    }
+    .contact .flexsm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .left {
+        width: 100%;
+        height: 50vh;
+    }
+    .contact iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .contact .right .one {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-in {
+        max-width: 100%;
+    }
+    .contact-in .two input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .contact .heading {
+        margin: auto;
+        max-width: 700px;
+        text-align: center;
+    }
+    .contact .heading h1 {
+        font-size: 30px;
+    }
+    .contact .right .down {
+        text-align: center;
+    }
+    .contact-in {
+        max-width: 720px;
+    }
+    .contact .flexsm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .left {
+        width: 100%;
+        height: 50vh;
+        margin: auto;
+    }
+    .contact iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .contact-in .one input {
+        width: 330px;
+    }
+    .contact-in .two input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1400px) {
+    .contact .heading {
+        margin: auto;
+        max-width: 700px;
+        /* text-align: center; */
+    }
+    .contact .heading h1 {
+        font-size: 30px;
+    }
+    .contact-in {
+        max-width: 400px;
+    }
+    .contact-in .one input {
+        max-width: 180px;
+    }
+    .contact-in .two input {
+        width: 100%;
+    }
+}
