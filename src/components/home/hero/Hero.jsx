@@ -7,10 +7,10 @@ const Hero = () => {
                 <div className="container">
                     <div className="overlay"></div>
                     <div className="text">
-                        <h1>Learn To Drive With Confidence</h1>
+                        <h1>Gjør veien til din</h1>
                         <div className="button">
-                            <button className='one'>Learn More</button>
-                            <button className='two'>Our Courses</button>
+                            <button className='one'>Les mer</button>
+                            <button className='two'>Våre kurs</button>
                         </div>
                     </div>
                 </div>

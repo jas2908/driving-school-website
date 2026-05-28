@@ -10,14 +10,14 @@ const Header = () => {
                 <div className="top flex">
                     <div className="left">
                         <i className='fa fa-location-dot'></i>
-                        <span className='street'>123 Street, New York, USA</span>
+                        <span className='street'>Grenseveien 107 0663 Oslo</span>
                         <i className='far fa-clock'></i>
-                        <span>Mon - Fri : 09.00 AM - 09.00 PM</span>
+                        <span>mandag–fredag kl. 09.00–21.00</span>
                     </div>
                     <div className="right flex">
                         <div>
                             <i className='fa fa-phone'></i>
-                            <span className='phone'>+012 345 6789</span>
+                            <span className='phone'>91 53 00 17</span>
                         </div>
                         <ul className='flex'>
                             <li>
@@ -37,30 +37,31 @@ const Header = () => {
                 </div>
                 <div className="head flex">
                     <div className="logo" >
-                        <i className='fa fa-car'></i>
-                        <span>Drivin</span>
+                        {/* <i className='fa fa-car'></i>  */}
+                        <img src="./img/logo2.png" alt="" /> 
+                        {/* <span>Østensjotrafikkskole</span> */}
                     </div>
                     <div className="right flex">
                         <div className="nav">
                             <ul className={navlist ? "small flex1" : "flex"}>
-                                <li><Link to='/'>Home</Link></li>
-                                <li><Link to='/about'>About</Link></li>
-                                <li><Link to='/courses'>Courses</Link></li>
-                                <li className='pages'><span>Pages</span>
+                                <li><Link to='/'>Hjem</Link></li>
+                                <li><Link to='/about'>Om Oss</Link></li>
+                                <li><Link to='/courses'>Kurs</Link></li>
+                                {/* <li className='pages'><span>Pages</span>
                                     <i class="fa fa-chevron-down arrow"></i>
                                     <div className='inside'>
                                         <li><Link to='/features'>Features</Link></li>
                                         <li><Link to='/appointment'>Appointment</Link></li>
                                         <li><Link to='/our-team'>Our Team</Link></li>
                                         <li><Link to='/testimonial'>Testimonial</Link></li>
-                                        <li><Link to='/error'>404 Page</Link></li>
-                                    </div>
-                                </li>
-                                <li><Link to='/contact'>Contact</Link></li>
+                                        <li><Link to='/error'>404 Page</Link></li> 
+                                    </div> */}
+                                {/* </li> */}
+                                <li><Link to='/contact'>Kontakt</Link></li>
                             </ul>
                         </div>
                         <button className="btn1">
-                            Get Started<i className='fa fa-arrow-right'></i>
+                            Kom i gang<i className='fa fa-arrow-right'></i>
                         </button>
                     </div>
                     <div className="toggle">

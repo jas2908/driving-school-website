@@ -14,35 +14,35 @@ const AboutCard = () => {
                         </div>
                     </div>
                     <div className="right">
-                        <Heading title='ABOUT US' subtitle='We Help Students To Pass Test & Get A License On The First Try'/>
+                        <Heading title='Om Oss' subtitle='Din trygge vei til førerkortet'/>
                         <div className="about-info">
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                            <p>Hos oss står kvalitet, trygghet og personlig oppfølging i sentrum. Vi er en moderne trafikkskole som hjelper deg hele veien fra første kjøretime til bestått førerprøve.</p>
+                            <p>Våre erfarne trafikklærere tilpasser opplæringen etter ditt nivå og din læringsstil, slik at du føler deg trygg og godt forberedt i trafikken. Vi tror at gode kjøreferdigheter bygges gjennom forståelse, praksis og en positiv læringsopplevelse.</p>
                             <div className="check">
                                 <div className="one-check">
                                     <div className="fully">
                                         <i className='fa fa-check'></i>
-                                        <span>Fully Licensed</span>
+                                        <span>Personlig oppfølging</span>
                                     </div>
                                     <div className="online">
                                         <i className='fa fa-check'></i>
-                                        <span>Online Tracking</span>
+                                        <span>Erfarne lærere</span>
                                     </div>
                                 </div>
                                 <div className="two-check">
                                     <div className="afordable ">
                                         <i className='fa fa-check'></i>
-                                        <span>Afordable Fee</span>
+                                        <span>Fleksible kjøretimer</span>
                                     </div>
                                     <div className="best">
                                         <i className='fa fa-check'></i>
-                                        <span>Best Trainers</span>
+                                        <span>Konkurransedyktige priser</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="button flex">
                                 <div className="button1">
-                                    Read More
+                                    Les Mer
                                 </div>
                                 <div className="button2">
                                     <i className='fa fa-phone'></i>

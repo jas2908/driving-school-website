@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -88,4 +88,332 @@ body {
   .back h1 {
     font-size: 45px;
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* minimalist gray + navy system */
+  --bg: #F5F6F8;
+  --card: #FFFFFF;
+  --text: #0F172A;
+  --muted: #6B7280;
+  --primary: #374151;
+  --dark: #0F172A;
+  --border: #E5E7EB;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* layout helpers */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* headings */
+.heading p {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.heading h1 {
+  color: var(--dark);
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* grid */
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+/* HERO */
+.back {
+  background-image: url('../public/img/carousel-1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  padding-top: 180px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.back .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+}
+
+.back h1 {
+  position: relative;
+  z-index: 2;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.back h2 {
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+  margin-top: 18px;
+}
+
+/* spacing */
+section {
+  padding: 90px 0;
+}
+
+/* cards */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  transition: 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+}
+
+/* buttons */
+button,
+.btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover,
+.btn:hover {
+  background: var(--dark);
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* margin utility */
+.margin {
+  margin-top: 10%;
+}
+
+/* =========================
+   FOOTER (.last)
+   ========================= */
+
+.last {
+  background-color: var(--dark);
+  color: #E5E7EB;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.last h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 22px;
+  color: #F1F5F9;
+}
+
+.last .touch .logo {
+  margin-bottom: 20px;
+}
+
+.last .touch .logo i {
+  font-size: 32px;
+}
+
+.last .touch .logo span {
+  color: #E5E7EB;
+  font-size: 34px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.last .touch .call {
+  margin: 15px 0;
+}
+
+.last .touch .call i {
+  font-size: 18px;
+}
+
+.last .touch .call span {
+  margin-left: 12px;
+  font-size: 16px;
+}
+
+/* links */
+.last .links ul li {
+  position: relative;
+  list-style-type: none;
+  margin: 14px 18px;
+  padding: 0 10px;
+  transition: 0.2s;
+}
+
+.last .links ul li:hover {
+  letter-spacing: 1px;
+}
+
+.last .links ul li:hover a {
+  color: #FFFFFF;
+}
+
+.last .links ul li::before {
+  content: '›';
+  position: absolute;
+  left: -15px;
+  top: 0;
+  font-size: 18px;
+  color: #64748B;
+}
+
+.last .links ul li a {
+  color: #CBD5E1;
+  transition: 0.2s;
+}
+
+/* subscribe */
+.last .subscribe .input input {
+  padding: 16px 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #374151;
+}
+
+.last .subscribe .input button {
+  background-color: #334155;
+  color: #fff;
+  padding: 16px 14px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.last .subscribe .input button:hover {
+  background-color: #1E293B;
+}
+
+.last .subscribe h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 25px 0;
+  color: #E5E7EB;
+}
+
+/* social */
+.last .subscribe .social {
+  display: flex;
+}
+
+.last .subscribe .social li {
+  list-style-type: none;
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.last .subscribe .social li:hover {
+  background-color: #334155;
+}
+
+.last .subscribe .social li a {
+  color: #fff;
+}
+
+/* footer bottom */
+footer hr {
+  background-color: #374151;
+  height: 1px;
+  border: none;
+}
+
+.reserved {
+  text-align: center;
+  background-color: var(--dark);
+  color: #94A3B8;
+  padding-top: 10px;
+}
+
+.reserved strong {
+  color: #E5E7EB;
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .grid2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid4 {
+    grid-template-columns: 1fr;
+  }
+
+  .back {
+    height: 50vh;
+    padding-top: 140px;
+  }
+
+  .back h1 {
+    font-size: 42px;
+  }
+  
 }

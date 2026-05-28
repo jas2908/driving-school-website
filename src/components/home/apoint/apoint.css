@@ -1,4 +1,4 @@
-.apoint {
+/* .apoint {
     background-color: var(--primary);
     padding: 40px;
     margin: 40px auto;
@@ -52,6 +52,86 @@
 .apoint input[type= button]:hover {
     background-color: #0c2b4bef;
 }
+@media screen and (min-width:768px) {
+    .apoint .one,
+    .apoint .two {
+        flex-direction: row;
+        gap: 10px;
+    }
+} */
+
+.apoint {
+    background-color: #ececec;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border: 1px solid var(--border);
+    border-radius: 16px;
+}
+
+/* Heading */
+.apoint h2 {
+    color: var(--dark);
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Input rows */
+.apoint .one,
+.apoint .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Inputs + textarea */
+.apoint .one input,
+.apoint .two input,
+.apoint textarea {
+    padding: 14px;
+    height: 55px;
+    width: 100%;
+    border: 1px solid var(--border);
+    outline: none;
+    color: var(--text);
+    background-color: #fff;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* textarea specific */
+.apoint textarea {
+    height: 120px;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Submit button */
+.apoint input[type=submit] {
+    width: 100%;
+    border: none;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.apoint input[type=submit]:hover {
+    background-color: #1E293B;
+}
+
+/* responsive */
 @media screen and (min-width:768px) {
     .apoint .one,
     .apoint .two {

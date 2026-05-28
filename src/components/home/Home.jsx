@@ -12,7 +12,7 @@ const Home = () => {
         <>
             <Hero />
             <AboutCard />
-            <CoursesCard />
+            <CoursesCard showButton={true} />
             <Apoint />
             <FeaturesCard />
             <TeamCard />

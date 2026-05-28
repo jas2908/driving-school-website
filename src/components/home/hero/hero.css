@@ -51,7 +51,10 @@
     background-color: #f3be00e1;
 }
 .hero .text .button .two {
-    color: var(--dark);
+    color: #fff;
+}
+.hero .text .button .two:hover {
+    background-color: #f3be00e1;
 }
 @media screen and (max-width:640px) {
     .hero {

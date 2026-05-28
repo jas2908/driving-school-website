@@ -1,10 +1,10 @@
 .top {
     background-color: var(--dark);
-    color: var(--light);
+    color:#fff;
     padding: 12px 70px 12px 52px;
 }
 .top i {
-    color: var(--primary);
+    color: #fff;
 }
 .top .left span,
 .top .right span {
@@ -68,6 +68,12 @@
     font-weight: 600;
     margin-left: 8px;
     color: var(--dark);
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .head .flex1 {
     display: flex;

@@ -95,26 +95,26 @@
     height: 100%;
     display: none;
 }
-.box .img-in button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border: 3px solid var(--primary);
-    background-color: transparent;
-    color: var(--primary);
-    padding: 10px 17px;
-    font-size: 17px;
-    cursor: pointer;
-    display: none;
-    transition: 0.3s;
-}
-.box .img-in button:hover {
+.button1 {
     background-color: var(--primary);
     color: #fff;
+    cursor: pointer;
+    padding: 20px 62px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.button1:hover {
+    background-color: #f3be00de;
 }
 .box .img-in img {
     width: 100%;
+}
+
+.les-mer-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 @media screen and (max-width:768px) {
     .grid3 {
@@ -140,4 +140,6 @@
     .box {
         margin-top: 40px;
     }
+    
+    
 }
