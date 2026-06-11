@@ -195,16 +195,16 @@ footer hr {
 
 
 /* logo 1 = square */
-.last .logo1 img {
-    width: 120px;
-    height: auto;
+.last .logo1{
+    width: 200px;
+    height: 180px;
     object-fit: contain;
     display: block;
     margin-top: 15px;
 }
-.last .logo2 img {
-    width: 95px;
-    height: 95px;
+.last .logo2 {
+    width: 180px;
+    height: 180px;
     object-fit: cover;
 
     border-radius: 50%;
