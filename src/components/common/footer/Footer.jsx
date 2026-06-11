@@ -38,7 +38,12 @@ const Footer = () => {
                             <ul>
                                 <li><a href="https://www.vegvesen.no/forerkort/ta-forerkort/veien-til-forerkortet">Veien til førerkort</a></li>
                                 <li><a href="https://www.vegvesen.no/">Statens vegvesen</a></li>                                
-                            </ul>
+                            </ul>   
+                            <div className="logo-box"> 
+                              <div className="logo1" >                                
+                                <img src={process.env.PUBLIC_URL + "/img/footer1.png"} alt="" />                                 
+                            </div>                       
+                        </div>
                         </div>
                         <div className="subscribe">
                             {/* <h2>Newsletter</h2>
@@ -61,11 +66,11 @@ const Footer = () => {
                                     <a href=""><i className='fab fa-linkedin-in'></i></a>
                                 </li>
                             </ul>
-                            {/* <div className="logo" >
-                                <i className='fa fa-car'></i> 
-                                <img src="./img/logo2.png" alt="" /> 
-                                <span>Drivin</span> 
-                            </div> */}
+                            <div className="logo-box">
+                            <div className="logo2" >                                 
+                                <img src={process.env.PUBLIC_URL + "/img/footer2.png"} alt="" />                                
+                            </div> 
+                        </div>
                         </div>
                         
                     </div>

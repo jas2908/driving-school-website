@@ -186,9 +186,36 @@ footer hr {
 .reserved strong {
     color: var(--primary);
 }
-.logo img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+.logo-box {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo1,
+.logo2 {
+    display: block;
+    object-fit: contain;
+    background: transparent;
+}
+
+/* logo 1 = square */
+.logo1 img {
+    border-radius: 0;
+    object-fit: contain;
+}
+
+.logo2 img {
+    width: 95px;
+    height: 95px;
     object-fit: cover;
+
+    border-radius: 50%;
+    display: block;
+
+    /* IMPORTANT: removes that ugly “edge frame” look */
+    background: transparent;
+    padding: 0;
+    border: none;
 }
