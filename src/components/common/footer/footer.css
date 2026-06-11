@@ -193,20 +193,16 @@ footer hr {
     gap: 15px;
 }
 
-.logo1,
-.logo2 {
-    display: block;
-    object-fit: contain;
-    background: transparent;
-}
 
 /* logo 1 = square */
-.logo1 img {
-    border-radius: 0;
+.last .logo1 img {
+    width: 120px;
+    height: auto;
     object-fit: contain;
+    display: block;
+    margin-top: 15px;
 }
-
-.logo2 img {
+.last .logo2 img {
     width: 95px;
     height: 95px;
     object-fit: cover;
