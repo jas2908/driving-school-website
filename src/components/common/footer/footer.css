@@ -186,23 +186,18 @@ footer hr {
 .reserved strong {
     color: var(--primary);
 }
-.logo-box {
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
+
 
 
 /* logo 1 = square */
-.last .logo1{
+.last .logo1 img {
     width: 200px;
     height: 180px;
     object-fit: contain;
     display: block;
     margin-top: 15px;
 }
-.last .logo2 {
+.last .logo2 img {
     width: 180px;
     height: 180px;
     object-fit: cover;
