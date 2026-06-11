@@ -189,24 +189,25 @@ footer hr {
 
 
 
-/* logo 1 = square */
-.last .logo1 img {
-    width: 200px;
-    height: 180px;
+.image1 img {
+    width: 170px;
+    height: auto;
     object-fit: contain;
     display: block;
     margin-top: 15px;
 }
-.last .logo2 img {
-    width: 180px;
-    height: 180px;
+
+/* IMAGE 2 (round logo) */
+.image2 img {
+    width: 120px;
+    height: 120px;
     object-fit: cover;
-
-    border-radius: 50%;
     display: block;
+    margin-top: 15px;
+    border-radius: 50%;
 
-    /* IMPORTANT: removes that ugly “edge frame” look */
+    /* removes weird edges */
     background: transparent;
-    padding: 0;
     border: none;
+    box-shadow: none;
 }

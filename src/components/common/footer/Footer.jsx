@@ -40,7 +40,7 @@ const Footer = () => {
                                 <li><a href="https://www.vegvesen.no/">Statens vegvesen</a></li>                                
                             </ul>   
                              
-                              <div className="logo1" >                                
+                              <div className="image1" >                             
                                 <img src={process.env.PUBLIC_URL + "/img/footer1.png"} alt="" />                                 
                             </div>                       
                         </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                             
-                            <div className="logo2" >                                 
+                            <div className="image2" >                                 
                                 <img src={process.env.PUBLIC_URL + "/img/footer2.png"} alt="" />                                
                             </div> 
                         </div>

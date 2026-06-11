@@ -38,7 +38,7 @@ const Header = () => {
                 <div className="head flex">
                     <div className="logo" >
                         {/* <i className='fa fa-car'></i>  */}
-                        <img src="./img/logo2.png" alt="" /> 
+                        <img src={process.env.PUBLIC_URL + "/img/logo2.png"} alt="" />
                         {/* <span>Østensjotrafikkskole</span> */}
                     </div>
                     <div className="right flex">
