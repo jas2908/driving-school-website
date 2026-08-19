@@ -7,7 +7,7 @@ const Back = ({ title }) => {
                 <div className="overlay"></div>
                 <h1>{title}</h1>
             </section>
-            <div className="margin"></div>
+            
         </>
     )
 }

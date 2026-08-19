@@ -50,7 +50,7 @@ const Header = () => {
                         <div className="nav">
                             <ul className={navlist ? "small flex1" : "flex"}>
                                 <li><Link to='/'>Hjem</Link></li>
-                                <li><Link to='/about'>Om Oss</Link></li>
+                                <li><Link to='/about-details'>Om Oss</Link></li>
                                 <li><Link to='/courses'>Kurs</Link></li>
                                 {/* <li className='pages'><span>Pages</span>
                                     <i class="fa fa-chevron-down arrow"></i>

@@ -42,12 +42,12 @@ const AboutCard = () => {
                                 </div>
                             </div>
                             <div className="button flex">
-                                <Link to="/about" className="button1">
+                                <Link to="/about-details" className="button1">
                                     Les Mer
                                 </Link>
                                 <div className="button2">
                                     <i className='fa fa-phone'></i>
-                                    <span>+012 345 6789</span>
+                                    <span>91 53 00 17</span>
                                 </div>
                             </div>
                         </div>

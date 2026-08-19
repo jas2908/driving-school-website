@@ -54,6 +54,7 @@ import Error from "../404_page/Error";
 import Appointment from "../appointment/Appointment";
 import Contact from "../contact/Contact";
 import Footer from "../common/footer/Footer";
+import AboutDetails from '../about/AboutDetails'
 
 const Pages = () => {
   return (
@@ -68,7 +69,8 @@ const Pages = () => {
         <Route exact path="/appointment" component={Appointment} />
         <Route exact path="/our-team" component={Team} />
         <Route exact path="/testimonial" component={Testimonial} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} /> 
+        <Route exact path="/about-details" component={AboutDetails} />     
         <Route component={Error} />
       </Switch>
 

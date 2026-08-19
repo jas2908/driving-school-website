@@ -1,0 +1,282 @@
+.about-details {
+    padding: 30px 0 100px;
+    background-color: var(--bg);
+}
+
+/* INTRO */
+
+.about-details-intro {
+    margin-bottom: 80px;
+}
+
+.about-details-intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* =========================
+   ABOUT DETAILS IMAGES
+   ========================= */
+
+.about-details-images {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+/* about-1 = main/larger image */
+.about-details-images img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 82%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+/* about-2 = smaller image */
+.about-details-images img:first-child {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 42%;
+    height: 230px;
+    object-fit: cover;
+    outline: 15px solid #fff;
+    z-index: 2;
+}
+
+/* CARDS */
+
+/* CARDS */
+
+.about-details-cards {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.about-detail-card {
+    width: 100%;
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    gap: 22px;
+    transition: 0.25s ease;
+}
+
+.about-detail-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.07);
+}
+
+.about-detail-icon {
+    min-width: 48px;
+    height: 48px;
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-detail-icon i {
+    font-size: 20px;
+}
+
+.about-detail-card h3 {
+    color: var(--dark);
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.about-detail-card p {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* BENEFITS */
+
+.about-details-benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.about-benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+    background-color: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: 0.25s ease;
+}
+
+.about-benefit:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.07);
+}
+
+.about-benefit > i {
+    min-width: 48px;
+    height: 48px;
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.about-benefit h3 {
+    color: var(--dark);
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.about-benefit p {
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+
+/* CONCLUSION */
+
+.about-details-conclusion {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.about-details-conclusion h2 {
+    color: var(--dark);
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-details-conclusion p {
+    color: var(--muted);
+    font-size: 18px;
+}
+.about-details-text p {
+    color: var(--muted);
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 992px) {
+
+    .about-details {
+        padding: 70px 0;
+    }
+
+    .about-details-intro-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-details-images {
+        min-height: 380px;
+    }
+
+    .about-details-cards {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .about-details {
+        padding: 50px 0;
+    }
+
+    .about-details-cards {
+        width: 94%;
+        gap: 18px;
+    }
+    
+    .about-detail-card {
+        padding: 22px;
+        gap: 15px;
+    }
+
+    .about-detail-card h3 {
+        font-size: 18px;
+    }
+
+    .about-details-text p {
+        font-size: 16px;
+    }
+
+    .about-benefit {
+        padding: 22px;
+    }
+}
+@media screen and (max-width: 992px) {
+
+    .about-details-images {
+        position: relative;
+        min-height: 400px;
+    }
+
+    .about-details-images img:first-child {
+        width: 50%;
+        height: 50%;
+        top: -30px;
+        left: -10px;
+    }
+
+    .about-details-images img:last-child {
+        width: 100%;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .about-details-images {
+        min-height: 350px;
+    }
+
+    .about-details-images img:first-child {
+        width: 50%;
+        height: 50%;
+        top: -20px;
+        left: -5px;
+    }
+
+    .about-details-images img:last-child {
+        height: 350px;
+    }
+}
