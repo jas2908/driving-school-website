@@ -10,9 +10,7 @@ const Header = () => {
                 <div className="top flex">
                     <div className="left">
                         <i className='fa fa-location-dot'></i>
-                        <span className='street'>Grenseveien 107 0663 Oslo</span>
-                        <i className='far fa-clock'></i>
-                        <span>mandag–fredag kl. 09.00–21.00</span>
+                        <span className='street'>Grenseveien 107 0663 Oslo</span>                        
                     </div>
                     <div className="right flex">
                         <div>
@@ -21,17 +19,24 @@ const Header = () => {
                         </div>
                         <ul className='flex'>
                             <li>
-                                <a href=""><i className='fab fa-facebook-f'></i></a>
-                            </li>
+                                <a
+                                    href="https://www.facebook.com/profile.php?id=61591738204896"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className='fab fa-facebook-f'></i>
+                                </a>
+                            </li>                            
                             <li>
-                                <a href=""><i className='fab fa-twitter'></i></a>
+                                <a
+                                    href="https://www.instagram.com/ostensjo.trafikkskole/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className='fab fa-instagram'></i>
+                                </a>
                             </li>
-                            <li>
-                                <a href=""><i className='fab fa-linkedin-in'></i></a>
-                            </li>
-                            <li>
-                                <a href=""><i className='fab fa-instagram'></i></a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>

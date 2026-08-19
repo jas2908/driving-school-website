@@ -5,7 +5,7 @@ import Back from '../common/Back'
 const About = () => {
     return (
         <>
-            <Back title='About Us'/>
+            <Back title='Om Oss'/>
             <AboutCard />
         </>
     )
