@@ -12,7 +12,7 @@ const Footer = () => {
                             
                             <div className="call" >
                                 <i className='fa fa-location-dot'></i>
-                                <span>Grenseveien 107 0663 Oslo</span>
+                                <span>Grenseveien 107A 0667 Oslo</span>
                             </div>
                             <div className="call" >
                                 <i className='fa fa-phone'></i>

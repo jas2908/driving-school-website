@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="top flex">
                     <div className="left">
                         <i className='fa fa-location-dot'></i>
-                        <span className='street'>Grenseveien 107 0663 Oslo</span>                        
+                        <span className='street'>Grenseveien 107A 0667 Oslo</span>                        
                     </div>
                     <div className="right flex">
                         <div>
