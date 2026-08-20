@@ -27,17 +27,17 @@ const AboutCard = () => {
                                     </div>
                                     <div className="online">
                                         <i className='fa fa-check'></i>
-                                        <span>Erfarne lærere</span>
+                                        <span>Pedagogisk tilnærming</span>
                                     </div>
                                 </div>
                                 <div className="two-check">
                                     <div className="afordable ">
                                         <i className='fa fa-check'></i>
-                                        <span>Fleksible kjøretimer</span>
+                                        <span>Trygg og rolig kjøring</span>
                                     </div>
                                     <div className="best">
                                         <i className='fa fa-check'></i>
-                                        <span>Konkurransedyktige priser</span>
+                                        <span>God dialog</span>
                                     </div>
                                 </div>
                             </div>
