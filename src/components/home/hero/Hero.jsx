@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="container">
                     <div className="overlay"></div>
                     <div className="text">
-                        <h1>Gjør veien til din</h1>
+                        <h1>Alltid Fremover</h1>
                         <div className="button">
                             <button className='one'
                             onClick={() => history.push('/about-details')}

@@ -53,18 +53,18 @@ const Footer = () => {
                             </div> */}
                             <h3>Følg oss</h3>
                             <ul className='social'>
-                                <li>
+                                {/* <li>
                                     <a href=""><i className='fab fa-twitter'></i></a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href=""><i className='fab fa-facebook-f'></i></a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href=""><i className='fab fa-youtube'></i></a>
-                                </li>
-                                <li>
+                                </li> */}
+                                {/* <li>
                                     <a href=""><i className='fab fa-linkedin-in'></i></a>
-                                </li>
+                                </li> */}
                             </ul>
                             
                             <div className="image2" >                                 
