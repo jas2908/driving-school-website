@@ -5,6 +5,7 @@
     font-size: 40px;
 }
 .testimonial {
+    padding-top: 80px;
     text-align: center;
     margin: auto;
 }
@@ -78,4 +79,76 @@
     background-color: var(--primary);
     width: 34px;
     height: 34px;
+}
+
+/* GOOGLE SUMMARY */
+
+.google-summary {
+    margin: 35px auto 30px;
+    text-align: center;
+}
+
+.google-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: var(--muted);
+    font-size: 15px;
+}
+
+.google-rating strong {
+    font-size: 26px;
+    color: var(--dark);
+}
+
+.google-rating .stars {
+    color: #f5b301;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.google-topics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.google-topics span {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+/* READ MORE */
+
+.read-more {
+    color: var(--primary);
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.google-reviews-link {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0;
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.google-reviews-link:hover {
+    text-decoration: underline;
 }

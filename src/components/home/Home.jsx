@@ -12,10 +12,10 @@ const Home = () => {
         <>
             <Hero />
             <AboutCard />
-            <CoursesCard showButton={true} />
+            {/* <CoursesCard showButton={true} /> */}
             <Apoint />
-            <FeaturesCard />
-            <TeamCard />
+            {/* <FeaturesCard /> */}
+            {/* <TeamCard /> */}
             <TestimonialCard />
         </>
     )

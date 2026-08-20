@@ -1,6 +1,9 @@
 import React from 'react'
 import './hero.css'
+import { useHistory } from 'react-router-dom'
+
 const Hero = () => {
+    const history = useHistory()
     return (
         <>
             <section className="hero">
@@ -9,13 +12,21 @@ const Hero = () => {
                     <div className="text">
                         <h1>Gjør veien til din</h1>
                         <div className="button">
-                            <button className='one'>Les mer</button>
-                            <button className='two'>Våre kurs</button>
+                            <button className='one'
+                            onClick={() => history.push('/about-details')}
+                            >
+                                Les mer
+                                </button>
+                            <button className='two'
+                            onClick={() => history.push('/Courses')}
+                            >
+                                Prisliste
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
-            <div className="container">
+            {/* <div className="container">
                 <div className="row">
                     <div className="box">
                         <i className='fa fa-car'></i>
@@ -39,7 +50,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
