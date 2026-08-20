@@ -64,10 +64,7 @@ const Header = () => {
                                 {/* </li> */}
                                 <li><Link to='/contact'>Kontakt</Link></li>
                             </ul>
-                        </div>
-                        <button className="btn1">
-                            Kom i gang<i className='fa fa-arrow-right'></i>
-                        </button>
+                        </div>                        
                     </div>
                     <div className="toggle">
                         <button onClick={() => setNavlist(!navlist)}>
