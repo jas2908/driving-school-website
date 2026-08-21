@@ -82,7 +82,7 @@ const Footer = () => {
                             <ul className='social'>
                                 <li>
                                     <a
-                                        href="https://www.facebook.com/"
+                                        href="https://www.facebook.com/profile.php?id=61591738204896"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Facebook"
@@ -93,7 +93,7 @@ const Footer = () => {
 
                                 <li>
                                     <a
-                                        href="https://www.instagram.com/"
+                                        href="https://www.instagram.com/ostensjo.trafikkskole/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Instagram"
