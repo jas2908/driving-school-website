@@ -7,15 +7,14 @@ const PriceList = () => {
             title: "Kurs",
             items: [
                 ["Trafikalt grunnkurs", "2000,-"],
-                ["Mørkekjøringsdemo", "2000,-"],
+                ["Trafikant i mørket", "2000,-"],
                 ["Førstehjelpskurs", "1000,-"],
                 ["Bilkjøringens risiko (teori 2t)", "500,-"],
                 ["Kjøring i landeveismiljø (5t)", "5000,-"],
                 ["Planlegging og variert miljø (4t)", "3900,-"],
                 ["Refleksjon og oppsummering (2t)", "500,-"],
                 ["Leie av bil førerprøve Oslo/Lillestrøm", "3200,-"],
-                ["Leie av bil førerprøve Drøbak", "5600,-"],
-                ["Oppvarmingstime (45 min)", "850,-"],
+                ["Leie av bil førerprøve Drøbak", "5600,-"],                
                 ["Oppvarmingstime (60 min)", "1250,-"]
             ]
         },
@@ -30,7 +29,7 @@ const PriceList = () => {
                 ["Dobbeltime kveld/helg", "1950,-"],
                 ["Trinnvurdering trinn 2", "900,-"],
                 ["Trinnvurdering trinn 3", "1300,-"],
-                ["Sikkerhetskurs på bane", "7200,-"]
+                ["Sikkerhetskurs på bane inkl gebyr", "7200,-"]
             ]
         },
         {
