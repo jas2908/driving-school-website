@@ -9,15 +9,14 @@ const AboutCard = () => {
             <div className="about">
                 <div className="container grid2 flexsm">
                     <div className="left">
-                        <div className="img">
-                            <img src= {process.env.PUBLIC_URL + "/img/about-2.jpg"} alt="" /> 
+                        <div className="img">                             
                             <img src= {process.env.PUBLIC_URL + "/img/about-1.jpg" } alt="" />
                         </div>
                     </div>
                     <div className="right">
                         <Heading title='Om Oss' subtitle='Hvorfor velge oss som din kjøreskole i Oslo?'/>
                         <div className="about-info">
-                            <p>Å velge riktig kjøreskole handler om mer enn pris og beliggenhet — det handler om å bli sett, forstått og tatt på alvor gjennom hele opplæringen. Hos oss får du ikke bare en kjørelærer, du får en trygg veileder som brenner for at akkurat du skal lykkes.</p>
+                            {/* <p>Å velge riktig kjøreskole handler om mer enn pris og beliggenhet — det handler om å bli sett, forstått og tatt på alvor gjennom hele opplæringen. Hos oss får du ikke bare en kjørelærer, du får en trygg veileder som brenner for at akkurat du skal lykkes.</p> */}
                             <p>Med over 14 års erfaring fra trafikkopplæring i Oslo og omegn vet vi at ingen elever er like. Derfor bygger vi opplæringen på pedagogikk, tillit og ekte dialog — ikke en standardmal som skal passe alle.</p>
                             <div className="check">
                                 <div className="one-check">
