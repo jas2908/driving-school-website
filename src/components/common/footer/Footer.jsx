@@ -7,77 +7,112 @@ const Footer = () => {
             <footer>
                 <div className="last">
                     <div className="container grid4">
+
+                        {/* CONTACT */}
                         <div className="touch">
                             <h2>Ta kontakt</h2>
-                            
-                            <div className="call" >
+
+                            <div className="call">
                                 <i className='fa fa-location-dot'></i>
-                                <span>Grenseveien 107A 0667 Oslo</span>
+                                <span>Grenseveien 107A, 0667 Oslo</span>
                             </div>
-                            <div className="call" >
+
+                            <div className="call">
                                 <i className='fa fa-phone'></i>
                                 <span>91 53 00 17</span>
                             </div>
-                            <div className="call" >
+
+                            <div className="call">
                                 <i className='fa fa-envelope'></i>
-                                <span>omar_pwa@hotmail.com</span>
+                                <span>ostensjotrafikkskole@hotmail.com</span>
                             </div>
                         </div>
+
+                        {/* SHORTCUTS */}
                         <div className="links">
                             <h2>Snarveier</h2>
+
                             <ul>
                                 <li><a href="">Om oss</a></li>
                                 <li><a href="">Kontakt oss</a></li>
                                 <li><a href="">Våre tjenester</a></li>
                                 <li><a href="">Vilkår og betingelser</a></li>
-                                <li><a href="">Støtte</a></li>
                             </ul>
                         </div>
-                        <div className="links">
+
+                        {/* USEFUL LINKS + LOGOS */}
+                        <div className="links useful-links">
                             <h2>Nyttige Lenker</h2>
+
                             <ul>
-                                <li><a href="https://www.vegvesen.no/forerkort/ta-forerkort/veien-til-forerkortet">Veien til førerkort</a></li>
-                                <li><a href="https://www.vegvesen.no/">Statens vegvesen</a></li>                                
-                            </ul>   
-                             
-                              <div className="image1" >                             
-                                <img src={process.env.PUBLIC_URL + "/img/footer1.png"} alt="" />                                 
-                            </div>                       
-                        </div>
-                        
-                        <div className="subscribe">
-                            {/* <h2>Newsletter</h2>
-                            <div className="input">
-                                <input type="email" placeholder='Your Email Address' />
-                                <button>Sign Up</button>
-                            </div> */}
-                            <h3>Følg oss</h3>
-                            <ul className='social'>
-                                {/* <li>
-                                    <a href=""><i className='fab fa-twitter'></i></a>
-                                </li> */}
                                 <li>
-                                    <a href=""><i className='fab fa-facebook-f'></i></a>
+                                    <a href="https://www.vegvesen.no/forerkort/ta-forerkort/veien-til-forerkortet">
+                                        Veien til førerkort
+                                    </a>
                                 </li>
-                                {/* <li>
-                                    <a href=""><i className='fab fa-youtube'></i></a>
-                                </li> */}
-                                {/* <li>
-                                    <a href=""><i className='fab fa-linkedin-in'></i></a>
-                                </li> */}
+
+                                <li>
+                                    <a href="https://www.vegvesen.no/">
+                                        Statens vegvesen
+                                    </a>
+                                </li>
                             </ul>
-                            
-                            <div className="image2" >                                 
-                                <img src={process.env.PUBLIC_URL + "/img/footer2.png"} alt="" />                                
-                            </div> 
+
+                            <div className="footer-logos">
+                                <div className="image1">
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/footer1.png"}
+                                        alt="Østensjø Trafikkskole"
+                                    />
+                                </div>
+
+                                <div className="image2">
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/footer2.png"}
+                                        alt="Østensjø Trafikkskole"
+                                    />
+                                </div>
+                            </div>
                         </div>
+
+                        {/* SOCIAL */}
+                        <div className="subscribe">
+                            <h2>Følg oss</h2>
+
+                            <ul className='social'>
+                                <li>
+                                    <a
+                                        href="https://www.facebook.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Facebook"
+                                    >
+                                        <i className='fab fa-facebook-f'></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Instagram"
+                                    >
+                                        <i className='fab fa-instagram'></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        
+
                     </div>
-                
-                <hr/>
+                </div>
+
+                <hr />
+
                 <div className='reserved'>
-                    <p><strong>&copy; 2026,</strong> All Rights Reserved by JKaur</p>
+                    <p>
+                        <strong>&copy; 2026,</strong> All Rights Reserved by JKaur
+                    </p>
                 </div>
             </footer>
         </>
