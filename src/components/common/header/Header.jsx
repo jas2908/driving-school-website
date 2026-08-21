@@ -1,9 +1,27 @@
 import React, { useState } from 'react'
 import './header.css'
-import {Link} from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 const Header = () => {
+    
     const [navlist, setNavlist] = useState(false)
+    const history = useHistory()
+
+    const goToAppointment = () => {
+        history.push('/')
+
+        setTimeout(() => {
+            const appointment = document.getElementById('Apoint')
+
+            if (appointment) {
+                appointment.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                })
+            }
+        }, 100)
+    }
+    
     return (
         <>
             <header>
@@ -41,10 +59,11 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="head flex">
-                    <div className="logo" >
-                        {/* <i className='fa fa-car'></i>  */}
-                        <img src={process.env.PUBLIC_URL + "/img/logo2.png"} alt="" />
-                        {/* <span>Østensjotrafikkskole</span> */}
+                    <div className="logo" onClick={goToAppointment}>
+                        <img
+                            src={process.env.PUBLIC_URL + "/img/logo2.png"}
+                            alt="Østensjø Trafikkskole"
+                        />
                     </div>
                     <div className="right flex">
                         <div className="nav">
