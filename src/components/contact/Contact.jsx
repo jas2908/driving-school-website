@@ -76,7 +76,7 @@ const Contact = () => {
 
                             <p>
                                 <i className="fa fa-envelope"></i>
-                                omar_pwa@hotmail.com
+                                ostensjotrafikkskole@hotmail.com
                             </p>
 
                         </div>

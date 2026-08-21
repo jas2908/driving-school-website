@@ -35,8 +35,8 @@ const Footer = () => {
                             <ul>
                                 <li><a href="">Om oss</a></li>
                                 <li><a href="">Kontakt oss</a></li>
-                                <li><a href="">Våre tjenester</a></li>
-                                <li><a href="">Vilkår og betingelser</a></li>
+                                {/* <li><a href="">Våre tjenester</a></li>
+                                <li><a href="">Vilkår og betingelser</a></li> */}
                             </ul>
                         </div>
 
