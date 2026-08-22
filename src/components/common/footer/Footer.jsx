@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -37,6 +38,9 @@ const Footer = () => {
                                 <li><a href="">Kontakt oss</a></li>
                                 {/* <li><a href="">Våre tjenester</a></li>
                                 <li><a href="">Vilkår og betingelser</a></li> */}
+                                <li>
+                                    <Link to="/school-rules">Skolereglement</Link>
+                                </li>
                             </ul>
                         </div>
 

@@ -33,7 +33,7 @@ const Header = () => {
                     <div className="right flex">
                         <div>
                             <i className='fa fa-phone'></i>
-                            <span className='phone'>91 53 00 17</span>
+                            <span className='phone'>40 34 40 40</span>
                         </div>
                         <ul className='flex'>
                             <li>
@@ -70,7 +70,7 @@ const Header = () => {
                             <ul className={navlist ? "small flex1" : "flex"}>
                                 <li><Link to='/'>Hjem</Link></li>
                                 <li><Link to='/about-details'>Om Oss</Link></li>
-                                <li><Link to='/courses'>Kurs</Link></li>
+                                <li><Link to='/courses'>Kurs/Pris</Link></li>
                                 {/* <li className='pages'><span>Pages</span>
                                     <i class="fa fa-chevron-down arrow"></i>
                                     <div className='inside'>

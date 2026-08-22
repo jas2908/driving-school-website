@@ -56,7 +56,18 @@ const Apoint = () => {
 
     return (
         <form id="Apoint" ref={form} className='apoint' onSubmit={sendEmail}>
-            <h2>Send melding</h2>
+            {/* <h2>Send melding</h2> */}
+            <div className="apoint-intro">
+                <p>
+                    Hos Østensjø Trafikkskole garanterer vi at du får personlig oppfølging hele veien,
+                    og opplæringen vil tilpasses dine forutsetninger og behov. Du skal føle deg trygg
+                    og ivaretatt når du tar førerkortet hos oss.
+                </p>
+
+                <p>
+                    Har du spørsmål er det bare å ta kontakt med oss i dag!
+                </p>
+            </div>
 
             <div className="one">
                 <input type="text" name="user_name" placeholder='Navn' required />
