@@ -20,7 +20,7 @@ const Footer = () => {
 
                             <div className="call">
                                 <i className='fa fa-phone'></i>
-                                <span>91 53 00 17</span>
+                                <span>40 34 40 40</span>
                             </div>
 
                             <div className="call">
@@ -58,6 +58,11 @@ const Footer = () => {
                                 <li>
                                     <a href="https://www.vegvesen.no/">
                                         Statens vegvesen
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://teoritentamen.no/">
+                                        Teoritentamen
                                     </a>
                                 </li>
                             </ul>
