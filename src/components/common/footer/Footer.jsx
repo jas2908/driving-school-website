@@ -27,6 +27,11 @@ const Footer = () => {
                                 <i className='fa fa-envelope'></i>
                                 <span>ostensjotrafikkskole@hotmail.com</span>
                             </div>
+
+                            <div className="call">
+                                <i className='fa fa-building'></i>
+                                <span>Org.nr. 931111167</span>
+                            </div>
                         </div>
 
                         {/* SHORTCUTS */}
@@ -66,23 +71,17 @@ const Footer = () => {
                                         Teoritentamen
                                     </a>
                                 </li>
-                            </ul>
-
-                            <div className="footer-logos">
-                                <div className="image1">
-                                    <img
-                                        src={process.env.PUBLIC_URL + "/img/footer1.png"}
-                                        alt="Østensjø Trafikkskole"
-                                    />
-                                </div>
-
-                                <div className="image2">
-                                    <img
-                                        src={process.env.PUBLIC_URL + "/img/footer2.png"}
-                                        alt="Østensjø Trafikkskole"
-                                    />
-                                </div>
-                            </div>
+                                <li>
+                                    <a href="https://www.tryggtrafikk.no/">
+                                        Trygg Trafikk
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ntsf.no/">
+                                       Norges Trafikkskoleforbund
+                                    </a>
+                                </li>
+                            </ul>                            
                         </div>
 
                         {/* SOCIAL */}
@@ -112,6 +111,21 @@ const Footer = () => {
                                     </a>
                                 </li>
                             </ul>
+                            <div className="footer-logos">
+                                <div className="image1">
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/footer1.png"}
+                                        alt="Østensjø Trafikkskole"
+                                    />
+                                </div>
+
+                                <div className="image2">
+                                    <img
+                                        src={process.env.PUBLIC_URL + "/img/footer2.png"}
+                                        alt="Østensjø Trafikkskole"
+                                    />
+                                </div>
+                            </div>
                         </div>
 
                     </div>
