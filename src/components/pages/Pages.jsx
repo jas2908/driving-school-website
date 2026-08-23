@@ -57,6 +57,7 @@ import Footer from "../common/footer/Footer";
 import AboutDetails from '../about/AboutDetails'
 import SchoolRules from '../schoolRules/SchoolRules'
 import Faq from "../faq/Faq";
+import ElevInfo from "../elevinfo/ElevInfo";
 
 const Pages = () => {
   return (
@@ -75,6 +76,7 @@ const Pages = () => {
         <Route exact path="/about-details" component={AboutDetails} />  
         <Route exact path="/school-rules" component={SchoolRules} />   
         <Route exact path="/faq" component={Faq} />
+        <Route exact path="/elevinfo" component={ElevInfo} />
         <Route component={Error} />
       </Switch>
 
