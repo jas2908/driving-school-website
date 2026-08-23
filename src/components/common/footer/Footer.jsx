@@ -41,6 +41,7 @@ const Footer = () => {
                                 <li>
                                     <Link to="/school-rules">Skolereglement</Link>
                                 </li>
+                                <li><Link to="/faq">FAQ</Link></li>
                             </ul>
                         </div>
 

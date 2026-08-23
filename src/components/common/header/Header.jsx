@@ -71,6 +71,7 @@ const Header = () => {
                                 <li><Link to='/'>Hjem</Link></li>
                                 <li><Link to='/about-details'>Om Oss</Link></li>
                                 <li><Link to='/courses'>Kurs/Pris</Link></li>
+                                <li><Link to='/faq'>FAQ</Link></li>
                                 {/* <li className='pages'><span>Pages</span>
                                     <i class="fa fa-chevron-down arrow"></i>
                                     <div className='inside'>
