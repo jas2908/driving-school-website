@@ -1,4 +1,5 @@
 import React from 'react'
+import './pricelist.css'
 
 const PriceList = () => {
 
@@ -50,82 +51,54 @@ const PriceList = () => {
     ]
 
     return (
-        <div id="pricing" style={{ padding: "60px 20px", background: "#f3f6f8" }}>
-            <div style={{ maxWidth: "1100px", margin: "auto" }}>
+        <div id="pricing">
 
-                <h2 style={{
-                    textAlign: "center",
-                    marginBottom: "40px",
-                    color: "#0c2b4b",
-                    fontSize: "40px"
-                }}>
+            <div className="pricing-container">
+
+                <h2 className="pricing-title">
                     Full prisliste
                 </h2>
 
-                <div style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(4, 1fr)",
-                    gap: "20px"
-                }}>
+                <div className="pricing-grid">
 
                     {sections.map((section, i) => (
-                        <div key={i} style={{
-                            background: "#fff",
-                            borderRadius: "12px",
-                            padding: "20px",
-                            boxShadow: "0 4px 12px rgba(0,0,0,0.05)"
-                        }}>
 
-                            <h3 style={{
-                                marginBottom: "15px",
-                                color: "#0c2b4b",
-                                borderBottom: "2px solid #eee",
-                                paddingBottom: "10px"
-                            }}>
+                        <div className="pricing-card" key={i}>
+
+                            <h3>
                                 {section.title}
                             </h3>
 
                             {section.items.map((item, idx) => (
-                                <div key={idx} style={{
-                                    display: "flex",
-                                    justifyContent: "space-between",
-                                    alignItems: "flex-start",
-                                    gap: "15px",
-                                    padding: "8px 0",
-                                    borderBottom: "1px solid #f0f0f0"
-                                }}>
-                                    <span style={{
-                                        fontSize: "14px",
-                                        color: "#333"
-                                    }}>
+
+                                <div className="price-item" key={idx}>
+
+                                    <span>
                                         {item[0]}
                                     </span>
 
-                                    <strong style={{
-                                        color: "#0c2b4b",
-                                        whiteSpace: "nowrap"
-                                    }}>
+                                    <strong>
                                         {item[1]}
                                     </strong>
+
                                 </div>
+
                             ))}
 
                             {section.title === "Førerprøve" && (
-                                <p style={{
-                                    marginTop: "15px",
-                                    fontSize: "14px",
-                                    color: "#757575",
-                                    lineHeight: "1.5"
-                                }}>
+                                <p className="price-note">
                                     Leie av bil til andre stasjoner – ta kontakt.
                                 </p>
                             )}
 
                         </div>
+
                     ))}
 
                 </div>
+
             </div>
+
         </div>
     )
 }
