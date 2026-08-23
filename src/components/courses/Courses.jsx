@@ -6,7 +6,7 @@ import PriceList from '../pricelist/PriceList'
 const Courses = () => {
     return (
         <>
-            <Back title='Kurs'/>            
+            <Back title='Kurs/Pris'/>            
             <PriceList />
         </>
     )

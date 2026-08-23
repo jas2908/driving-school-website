@@ -91,6 +91,16 @@
     .faq-question {
         font-size: 16px;
         padding: 18px 5px;
+        color: var(--dark) !important;
+        background-color: #fff !important;
+    }
+    .faq-question.active {
+        color: var(--dark) !important;
+        background-color: #fff !important;
+    }
+
+    .faq-question:hover {
+        color: var(--dark) !important;
     }
 
     .faq-answer {
