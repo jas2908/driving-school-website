@@ -38,15 +38,21 @@ const Footer = () => {
                         <div className="links">
                             <h2>Snarveier</h2>
 
-                            <ul>
-                                <li><a href="">Om oss</a></li>
-                                <li><a href="">Kontakt oss</a></li>
+                            <ul>                                
+                                <li>
+                                    <Link to="/about-details">Om oss</Link>
+                                </li>                                
+                                <li>
+                                    <Link to="/contact">Kontakt oss</Link>
+                                </li>
                                 {/* <li><a href="">Våre tjenester</a></li>
                                 <li><a href="">Vilkår og betingelser</a></li> */}
                                 <li>
                                     <Link to="/school-rules">Skolereglement</Link>
                                 </li>
                                 <li><Link to="/faq">FAQ</Link></li>
+                                <li><Link to="/privacy">Personvernerklæring</Link></li>
+                                
                             </ul>
                         </div>
 

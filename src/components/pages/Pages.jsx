@@ -58,6 +58,7 @@ import AboutDetails from '../about/AboutDetails'
 import SchoolRules from '../schoolRules/SchoolRules'
 import Faq from "../faq/Faq";
 import ElevInfo from "../elevinfo/ElevInfo";
+import PrivacyPolicy from "../privacy/PrivacyPolicy";
 
 const Pages = () => {
   return (
@@ -77,6 +78,7 @@ const Pages = () => {
         <Route exact path="/school-rules" component={SchoolRules} />   
         <Route exact path="/faq" component={Faq} />
         <Route exact path="/elevinfo" component={ElevInfo} />
+        <Route exact path="/privacy" component={PrivacyPolicy} />
         <Route component={Error} />
       </Switch>
 
