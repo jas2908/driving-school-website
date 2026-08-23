@@ -19,13 +19,14 @@ const AboutDetails = () => {
                     <div className="about-details-intro-content">
                         <div className="about-details-images">
                             <img
-                                src={process.env.PUBLIC_URL + "/img/about-2.jpg"}
+                                className="small-image"
+                                src={process.env.PUBLIC_URL + "/img/about-3.jpg"}
                                 alt="Kjøreskole"
                             />
                             <img
-                                src={process.env.PUBLIC_URL + "/img/about-1.jpg"}
+                                src={process.env.PUBLIC_URL + "/img/about-3.jpg"}
                                 alt="Kjøreopplæring"
-                            />
+                            />                           
                         </div>
 
                         <div className="about-details-text">

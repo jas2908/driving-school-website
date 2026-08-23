@@ -31,8 +31,8 @@
 /* about-1 = main/larger image */
 .about-details-images img:last-child {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 80px;
+    bottom: 30px;
     width: 82%;
     height: 450px;
     object-fit: cover;
@@ -50,6 +50,7 @@
     object-fit: cover;
     outline: 15px solid #fff;
     z-index: 2;
+    display: none;
 }
 
 /* CARDS */
@@ -222,10 +223,7 @@
         padding: 50px 0;
     }
 
-    .about-details-cards {
-        width: 94%;
-        gap: 18px;
-    }
+    
     
     .about-detail-card {
         padding: 22px;

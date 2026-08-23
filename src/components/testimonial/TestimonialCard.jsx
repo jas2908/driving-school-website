@@ -87,7 +87,7 @@ const TestimonialCard = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                Les flere anmeldelser på Google →
+                Les flere anmeldelser eller gi en på Google →
             </a>
 
                 <div className="dots">

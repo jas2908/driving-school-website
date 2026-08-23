@@ -10,7 +10,7 @@ const AboutCard = () => {
                 <div className="container grid2 flexsm">
                     <div className="left">
                         <div className="img">                             
-                            <img src= {process.env.PUBLIC_URL + "/img/about-1.jpg" } alt="" />
+                            <img src= {process.env.PUBLIC_URL + "/img/about-3.jpg" } alt="" />
                         </div>
                     </div>
                     <div className="right">
