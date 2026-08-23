@@ -25,7 +25,7 @@
     position: relative;
     width: 100%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 /* about-1 = main/larger image */
@@ -215,7 +215,46 @@
     }
 
 }
+@media screen and (max-width: 992px) {
 
+    /* .about-details-images {
+        position: relative;
+        min-height: 400px;
+    }
+
+    .about-details-images img:first-child {
+        width: 50%;
+        height: 50%;
+        top: -30px;
+        left: -10px;
+    }
+
+    .about-details-images img:last-child {
+        width: 100%;
+        height: 400px;
+    } */
+     .about-details-images {
+        position: relative;
+        width: 100%;
+        min-height: 400px;
+        margin-top: 10px;
+    }
+
+    .about-details-images img:first-child {
+        display: none;
+    }
+
+    .about-details-images img:last-child {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        right: 5%;
+        left: auto;
+        top: 0;
+        bottom: auto;
+        object-fit: cover;
+    }
+}
 
 @media screen and (max-width: 600px) {
 
@@ -223,8 +262,39 @@
         padding: 50px 0;
     }
 
-    
-    
+    .about-details-intro-content {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .about-details-images {
+        width: 100%;
+        min-height: 300px;
+        height: 350px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Hide the unused smaller image */
+    .about-details-images img:first-child {
+        display: none;
+    }
+
+    /* Keep the main/larger image centered */
+    .about-details-images img:last-child {
+        position: relative;
+        right: 4%;
+        bottom: auto;
+        width: 92%;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        top: 0;
+    }
+
     .about-detail-card {
         padding: 22px;
         gap: 15px;
@@ -240,41 +310,5 @@
 
     .about-benefit {
         padding: 22px;
-    }
-}
-@media screen and (max-width: 992px) {
-
-    .about-details-images {
-        position: relative;
-        min-height: 400px;
-    }
-
-    .about-details-images img:first-child {
-        width: 50%;
-        height: 50%;
-        top: -30px;
-        left: -10px;
-    }
-
-    .about-details-images img:last-child {
-        width: 100%;
-        height: 400px;
-    }
-}
-@media screen and (max-width: 600px) {
-
-    .about-details-images {
-        min-height: 350px;
-    }
-
-    .about-details-images img:first-child {
-        width: 50%;
-        height: 50%;
-        top: -20px;
-        left: -5px;
-    }
-
-    .about-details-images img:last-child {
-        height: 350px;
     }
 }

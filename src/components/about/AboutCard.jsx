@@ -46,7 +46,7 @@ const AboutCard = () => {
                                 </Link>
                                 <div className="button2">
                                     <i className='fa fa-phone'></i>
-                                    <span>91 53 00 17</span>
+                                    <span>40 34 40 40</span>
                                 </div>
                             </div>
                         </div>

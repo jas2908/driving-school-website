@@ -71,7 +71,7 @@ const Contact = () => {
 
                             <p>
                                 <i className="fa fa-phone"></i>
-                                +47 91 53 00 17
+                                +47 40 34 40 40
                             </p>
 
                             <p>
