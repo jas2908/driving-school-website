@@ -56,7 +56,8 @@ const PriceList = () => {
                 <h2 style={{
                     textAlign: "center",
                     marginBottom: "40px",
-                    color: "#0c2b4b"
+                    color: "#0c2b4b",
+                    fontSize: "40px"
                 }}>
                     Full prisliste
                 </h2>
