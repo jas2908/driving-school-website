@@ -10,10 +10,10 @@ const PriceList = () => {
                 ["Trafikalt grunnkurs", "2000,-"],
                 ["Trafikant i mørket", "2000,-"],
                 ["Førstehjelpskurs", "1000,-"],
-                ["Bilkjøringens risiko (teori 2t)", "500,-"],
+                ["Bilkjøringens risiko (teori 2t)", "900,-"],
                 ["Kjøring i landeveismiljø (5t)", "5000,-"],
                 ["Planlegging og variert miljø (4t)", "3900,-"],
-                ["Refleksjon og oppsummering (2t)", "500,-"],
+                ["Refleksjon og oppsummering (teori 2t)", "900,-"],
                 ["Sikkerhetskurs på bane inkl gebyr", "7200,-"]
             ]
         },
@@ -21,19 +21,18 @@ const PriceList = () => {
             title: "Kjøretimer",
             items: [
                 ["Kjøretime (45 min)", "900,-"],
-                ["Kjøretime helg", "1000,-"],
-                ["Info & analyse", "1800,-"],
+                ["Kjøretime helg (45 min)", "1000,-"],
+                ["Kartleggingstime (90 min)", "1800,-"],
                 ["Dobbeltime før kl. 16", "1800,-"],
-                ["Dobbeltime helg", "2000,-"],
-                ["Trinnvurdering trinn 2", "900,-"],
-                ["Trinnvurdering trinn 3", "1300,-"]
+                ["Dobbeltime helg (90 min)", "2000,-"],
+                ["Trinnvurderingstime 2 (45 min)", "900,-"],
+                ["Trinnvurderingstime 3 (60 min)", "1300,-"]
             ]
         },
         {
             title: "Førerprøve",
             items: [
-                ["Leie av bil til førerprøve Oslo (60 min før)", "4450,-"],
-                ["Leie av bil til førerprøve Lillestrøm (60 min før)", "5000,-"],
+                ["Leie av bil til førerprøve Oslo (60 min før)", "4450,-"],                
                 ["Leie av bil til førerprøve Drøbak (60 min før)", "5600,-"],
                 ["Praktisk prøve gebyr", "1540,-"]
             ]
@@ -42,7 +41,7 @@ const PriceList = () => {
             title: "Offentlige gebyrer",
             items: [
                 ["Teoriprøve", "480,-"],
-                ["Førerprøve", "1490,-"],
+                ["Førerprøve", "1550,-"],
                 ["Førerprøvekort", "160,-"],
                 ["Digitalt bilde", "100,-"],
                 ["NAF-gebyr", "1550,-"]
