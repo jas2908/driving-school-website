@@ -132,7 +132,7 @@ const CoursesCard = ({ showButton = false }) => {
 
                             
 
-                            <img src="./img/courses-1.jpg" alt="" />
+                            <img src= {process.env.PUBLIC_URL + "/img/courses-1.jpg" } alt="" />
                         </div>
                     </div>
 
@@ -163,7 +163,7 @@ const CoursesCard = ({ showButton = false }) => {
 
                             
 
-                            <img src="./img/courses-2.jpg" alt="" />
+                            <img src= {process.env.PUBLIC_URL + "/img/courses-2.jpg" } alt="" />
                         </div>
                     </div>
 
@@ -196,7 +196,7 @@ const CoursesCard = ({ showButton = false }) => {
                                 Les mer
                             </button> */}
 
-                            <img src="./img/courses-3.jpg" alt="" />
+                            <img src= {process.env.PUBLIC_URL + "/img/courses-3.jpg" } alt="" />
                         </div>
                     </div>
 
