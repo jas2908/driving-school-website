@@ -206,3 +206,29 @@
 .privacy-consent a:hover {
     color: var(--primary);
 }
+/* =========================
+   ANTI-SPAM HONEYPOT
+   ========================= */
+
+.form-honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.form-honeypot input {
+    position: absolute;
+    left: -9999px;
+}
+
+
+/* =========================
+   SEND BUTTON
+   ========================= */
+
+.apoint input[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
