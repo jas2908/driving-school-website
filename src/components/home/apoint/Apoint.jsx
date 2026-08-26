@@ -30,10 +30,10 @@ const Apoint = () => {
 
         try {
             await emailjs.sendForm(
-                'service_zbrqupk',
-                'template_clwyjcg',
+                'service_160yygv',
+                'template_77ijoqn',
                 form.current,
-                'UG2MtTYyXALbvj3na'
+                '6sKLANxu9lZp4q7NL'
             )
 
             setSent(true)

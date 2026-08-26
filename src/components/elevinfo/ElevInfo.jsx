@@ -1,6 +1,7 @@
 import React from 'react'
 import Back from '../common/Back'
 import './elevinfo.css'
+import { Link } from 'react-router-dom'
 
 const ElevInfo = () => {
     return (
@@ -211,9 +212,9 @@ const ElevInfo = () => {
                             på hva som gjelder for din opplæring.
                         </p>
 
-                        <a href="/#/contact" className="elevinfo-button">
+                        <Link to="/contact" className="elevinfo-button">
                             Kontakt oss
-                        </a>
+                        </Link>
                     </section>
 
                 </div>
