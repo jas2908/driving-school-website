@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/driving-school-website/static/css/main.ff0c0446.css",
-    "main.js": "/driving-school-website/static/js/main.c5587b0b.js",
+    "main.css": "/driving-school-website/static/css/main.628a6360.css",
+    "main.js": "/driving-school-website/static/js/main.18f45c4f.js",
     "static/media/carousel-1.jpg": "/driving-school-website/static/media/carousel-1.589ef6ea197a0206767b.jpg",
     "index.html": "/driving-school-website/index.html",
-    "main.ff0c0446.css.map": "/driving-school-website/static/css/main.ff0c0446.css.map",
-    "main.c5587b0b.js.map": "/driving-school-website/static/js/main.c5587b0b.js.map"
+    "main.628a6360.css.map": "/driving-school-website/static/css/main.628a6360.css.map",
+    "main.18f45c4f.js.map": "/driving-school-website/static/js/main.18f45c4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff0c0446.css",
-    "static/js/main.c5587b0b.js"
+    "static/css/main.628a6360.css",
+    "static/js/main.18f45c4f.js"
   ]
 }
