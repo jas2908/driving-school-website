@@ -59,10 +59,12 @@ import SchoolRules from '../schoolRules/SchoolRules'
 import Faq from "../faq/Faq";
 import ElevInfo from "../elevinfo/ElevInfo";
 import PrivacyPolicy from "../privacy/PrivacyPolicy";
+import ScrollToTop from "../common/ScrollToTop";
 
 const Pages = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
 
       <Switch>

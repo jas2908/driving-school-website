@@ -394,7 +394,12 @@ footer hr {
 }
 
 /* responsive */
+/* =========================
+   RESPONSIVE
+   ========================= */
+
 @media screen and (max-width: 992px) {
+
   .container {
     max-width: 90%;
   }
@@ -415,21 +420,23 @@ footer hr {
   .back h1 {
     font-size: 42px;
   }
-  
-  @media screen and (max-width: 600px) {
-    .back {
-        height: 280px;
-        padding-top: 120px;
-        background-position: center center;
-    }
-
-    .back .overlay {
-        height: 280px;
-    }
-
-    .back h1 {
-        font-size: 34px;
-        line-height: 1.2;
-    }
 }
+
+
+@media screen and (max-width: 600px) {
+
+  .back {
+    height: 280px;
+    padding-top: 120px;
+    background-position: center center;
+  }
+
+  .back .overlay {
+    height: 280px;
+  }
+
+  .back h1 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
 }
