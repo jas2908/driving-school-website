@@ -5,6 +5,9 @@ import { Link, useHistory } from 'react-router-dom';
 const Header = () => {
     
     const [navlist, setNavlist] = useState(false)
+        const closeMenu = () => {
+        setNavlist(false)
+    }
     const history = useHistory()
 
     const goToAppointment = () => {
@@ -68,11 +71,11 @@ const Header = () => {
                     <div className="right flex">
                         <div className="nav">
                             <ul className={navlist ? "small flex1" : "flex"}>
-                                <li><Link to='/'>Hjem</Link></li>
-                                <li><Link to='/about-details'>Om Oss</Link></li>
-                                <li><Link to='/courses'>Kurs/Pris</Link></li>
-                                <li><Link to='/elevinfo'>Elevinfo</Link></li>
-                                <li><Link to='/faq'>FAQ</Link></li>
+                                <li><Link to='/' onClick={closeMenu}>Hjem</Link></li>
+                                <li><Link to='/about-details' onClick={closeMenu}>Om Oss</Link></li>
+                                <li><Link to='/courses' onClick={closeMenu}>Kurs/Pris</Link></li>
+                                <li><Link to='/elevinfo' onClick={closeMenu}>Elevinfo</Link></li>
+                                <li><Link to='/faq' onClick={closeMenu}>FAQ</Link></li>
                                 {/* <li className='pages'><span>Pages</span>
                                     <i class="fa fa-chevron-down arrow"></i>
                                     <div className='inside'>
@@ -83,7 +86,7 @@ const Header = () => {
                                         <li><Link to='/error'>404 Page</Link></li> 
                                     </div> */}
                                 {/* </li> */}
-                                <li><Link to='/contact'>Kontakt</Link></li>
+                                <li><Link to='/contact' onClick={closeMenu}>Kontakt</Link></li>
                             </ul>
                         </div>                        
                     </div>
