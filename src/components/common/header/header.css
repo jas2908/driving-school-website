@@ -1,54 +1,75 @@
+
+/* =========================
+   TOP CONTACT BAR
+   ========================= */
+
 .top {
     background-color: var(--dark);
-    color:#fff;
+    color: #fff;
     padding: 12px 70px 12px 52px;
 }
+
 .top i {
     color: #fff;
 }
+
 .top .left span,
 .top .right span {
     font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .top .left .street {
     margin-right: 40px;
 }
+
 .top .right .phone {
     margin-right: 30px;
     font-size: 15px;
 }
+
 .top .right ul li {
     list-style-type: none;
     margin-right: 20px;
     font-size: 17px;
     width: 20px;
 }
+
 .top .right ul li a {
     border-left: 1px solid #f3be0065;
     padding: 13px;
     text-align: center;
     margin: auto;
 }
+
 .top .right ul li:nth-child(1) a {
     border: none;
 }
+
 .top .right ul li i {
     transition: 0.5s;
     font-size: 18px;
 }
+
 .top .right ul li a:hover i {
     color: #f3be00b2;
 }
+
+
+/* =========================
+   GENERAL
+   ========================= */
+
 html {
     scroll-behavior: smooth;
 }
-@media screen and (max-width:992px) {
-    .top {
-        display: none;
-    }
-}
+
+
+/* =========================
+   MAIN HEADER
+   ========================= */
+
 .head .logo {
     display: flex;
     align-items: center;
@@ -56,16 +77,19 @@ html {
     cursor: pointer;
     position: relative;
 }
+
 .head .logo i {
     color: var(--primary);
     font-size: 30px;
 }
+
 .head .logo span {
     font-size: 35px;
     font-weight: 600;
     margin-left: 8px;
     color: var(--dark);
 }
+
 .logo img {
     width: 70px;
     height: 70px;
@@ -74,26 +98,37 @@ html {
     display: block;
     transition: 0.3s ease;
 }
+
+
+/* =========================
+   DESKTOP NAVIGATION
+   ========================= */
+
 .head .flex1 {
     display: flex;
 }
+
 .head .nav ul {
     margin-right: 30px;
 }
+
 .head .nav ul li {
     list-style-type: none;
     padding: 9px 15px;
     text-transform: uppercase;
     transition: 0.2s;
 }
-.head .nav ul li:hover ,
+
+.head .nav ul li:hover,
 .head .nav ul li:hover a,
 .head .nav ul li:hover span {
     color: #f3be00b2;
 }
+
 .head .nav ul li:hover span {
     cursor: pointer;
 }
+
 .head .nav ul li a,
 .head .nav ul li span {
     text-decoration: none;
@@ -102,16 +137,25 @@ html {
     font-weight: 500;
     transition: 0.2s;
 }
+
 .head .nav ul i {
     margin-left: 5px;
 }
+
+
+/* =========================
+   DROPDOWN
+   ========================= */
+
+.head .nav .pages {
+    position: relative;
+}
+
 .head .nav .pages:hover .inside {
     visibility: visible;
     opacity: 1;
 }
-.head .nav .pages {
-    position: relative;
-}
+
 .head .nav .inside {
     position: absolute;
     top: 60px;
@@ -123,14 +167,22 @@ html {
     z-index: 100;
     transition: 0.5s;
 }
+
 .head .nav .inside li a {
     padding: 0;
     text-transform: capitalize;
     font-weight: 400;
 }
+
 .head .nav .inside li:hover a {
     color: var(--dark);
 }
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
 .head .btn1 {
     background-color: var(--primary);
     padding: 35px 60px;
@@ -140,64 +192,221 @@ html {
     font-weight: 600;
     transition: 0.2s;
 }
+
 .head .btn1:hover {
     background-color: #f3be00cc;
     cursor: pointer;
 }
+
 .head .btn1 i {
     margin-left: 10px;
 }
+
+
+/* =========================
+   MOBILE TOGGLE
+   ========================= */
+
 .head .toggle {
     display: none;
 }
-@media screen and (max-width:992px) {
+
+
+/* ==================================================
+   MOBILE — ONE SINGLE MEDIA QUERY
+   ================================================== */
+
+@media screen and (max-width: 992px) {   
+
+
+    /* =========================
+       MOBILE TOP CONTACT BAR
+       ========================= */
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+
+        padding: 10px 15px;
+        background-color: var(--dark);
+        text-align: center;
+    }
+
+    .top .left { display: flex; align-items: center; justify-content: center; width: 100%; }
+    .top .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 3px;
+    }
+
+    /* Address */
+    .top .left .street {
+        margin: 0 0 0 7px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    /* Phone */
+    .top .right {
+        margin-top: 2px;
+    }
+
+    .top .right > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top .right .phone {
+        margin: 0 0 0 7px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    /* Hide social media icons */
+    /* .top .right ul {
+        display: none;
+    }
+
+    .top i {
+        font-size: 13px;
+    }
+ */
+
+ /* SOCIAL MEDIA */ 
+    .top .right ul { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 3px 0 0; 
+        padding: 0; 
+    } 
+    
+    .top .right ul li { 
+        list-style: none; 
+        width: auto; 
+        margin: 0 5px; 
+        font-size: 14px; 
+    } 
+
+    .top .right ul li a { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        padding: 5px 8px; 
+        border: none; 
+        color: #fff; 
+        text-decoration: none; 
+    } 
+
+    .top .right ul li i { 
+        font-size: 18px; 
+        transition: 0.3s; 
+    } 
+     /* .top .right ul li a:hover i { 
+        color: #f3be00b2; 
+    }  */
+    
+
+    /* =========================
+       MAIN HEADER
+       ========================= */
+
+    .head {
+        position: relative;
+        min-height: 75px;
+    }
+
+    .head .logo {
+        padding: 8px 20px;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* Hide desktop navigation */
     .head .nav .flex,
     .head .btn1 {
         display: none;
     }
-    .head .logo {
-        padding: 15px 30px 10px;
-    }
-    .logo img {
-        width: 60px;
-        height: 60px;
-    }    
-    .head .logo i {
-        font-size: 24px;
-    }
-    .head .logo span {
-        font-size: 28px;
-    }
+
+
+    /* =========================
+       HAMBURGER
+       ========================= */
+
     .head .toggle {
         display: block;
-        margin-right: 25px;
+        margin-right: 20px;
     }
+
     .head .toggle button {
-        padding: 8px 15px;
+        padding: 7px 12px;
         border: 1px solid #85858573;
         background-color: #fff;
-        color: #85858573;
-        font-size: 25px;
+        color: #858585;
+        font-size: 22px;
+        cursor: pointer;
     }
+
+
+    /* =========================
+       MOBILE NAVIGATION
+       ========================= */
+
     .head .small {
         position: absolute;
-        top: 63px;
+        top: 100%;
         left: 0;
-        background-color: #fff;
+
         width: 100%;
-        padding: 15px;
+        margin: 0;
+        padding: 10px 0;
+
+        background-color: #fff;
+
         z-index: 1000;
+
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
     }
+
     .head .flex1 {
         display: flex;
         flex-direction: column;
     }
-    .head .small li a,
-    .head .small li span {
-        color: #fff;
-        display: inline-block;
-        margin-bottom: 10px;
+
+    .head .small li {
+        list-style: none;
+        padding: 10px 25px;
     }
+
+    .head .small li a {
+        display: block;
+        color: var(--dark);
+        text-decoration: none;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .head .small li:hover a {
+        color: #f3be00b2;
+    } 
+
+
+
+
+
+    /* -------------------------
+       MOBILE DROPDOWN
+       ------------------------- */
+
     .head .pages:hover .inside {
         position: relative;
         top: 0;
@@ -207,22 +416,50 @@ html {
         padding: 2px;
         border: 1px solid #d6d6d6;
     }
+
     .head .pages:hover .inside li {
         padding: 5px 20px;
     }
+
     .head .pages:hover .inside li a {
         margin: 2px;
     }
 }
-@media screen and (min-width:993px) and (max-width:1060px) {
+
+
+/* ==================================================
+   SMALL DESKTOP — 993px TO 1060px
+   ================================================== */
+
+@media screen and (min-width: 993px) and (max-width: 1060px) {
+
     .head .logo {
         padding: 10px 10px 10px 20px;
-    }    
+    }
+
     .head .logo i {
         font-size: 22px;
     }
+
     .head .logo span {
         font-size: 25px;
     }
-    
+}
+
+
+/* ==================================================
+   VERY SMALL PHONES
+   ================================================== */
+
+@media screen and (max-width: 500px) {
+
+    .top {
+        padding: 8px 15px;
+    }
+
+    .top .left .street,
+    .top .right .phone {
+        font-size: 15px;
+    }
+
 }
