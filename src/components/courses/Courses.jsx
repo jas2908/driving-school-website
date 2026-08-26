@@ -2,6 +2,7 @@ import React from 'react'
 import Back from '../common/Back'
 import PriceList from '../pricelist/PriceList'
 import CoursesCard from './CoursesCard'
+import Packages from '../packages/Packages'
 
 
 const Courses = () => {
@@ -10,7 +11,8 @@ const Courses = () => {
             <Back title='Kurs/Pris'/>   
                     
             <PriceList />
-            <CoursesCard /> 
+            {/* <CoursesCard />  */}
+            <Packages />
         </>
     )
 }
