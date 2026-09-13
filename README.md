@@ -1,6 +1,6 @@
 # Live Demo 
 
-https://rodi5.github.io/driving-school-react/
+https://østensjøtrafikkskole.no/
 
 # Getting Started with Create React App
 
